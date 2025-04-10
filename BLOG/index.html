@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLog-Preview-Card</title>
+    <style>
+        body{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #fccb38;
+
+        }
+        .container{
+            background-color: white;
+            padding: 20px;
+            width: 330px;
+            
+            border-radius: 15px;
+            border: 2px solid black;
+            box-shadow: 10px 5px  black;
+            display: flex;
+            flex-direction: column;
+            gap:10px;
+        }
+        .image-section{
+            width:100%;
+            border-radius: 10px;
+            
+        }
+        .content-section{
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .btn-section{
+            display: flex;
+            justify-content: flex-start;
+            margin-bottom: 10px;
+            
+        }
+        .btn-section .category {
+            background-color: #f4c94c; /* Yellow background */
+            color: black;
+            font-weight: bold;
+            font-size: 16px;
+            padding: 4px 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            
+        }
+        .content-section h2 {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .content-section p {
+            font-size: 14px;
+            color: gray;
+        }
+        .footer-section {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .footer-section img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+       <!-- Image Section -->
+       <div class="image-section">
+        <img src="C:\Users\USER\Downloads\blog-preview-card-main\blog-preview-card-main\BLOG\illustration-article.svg" alt="Blog Image">
+    </div>
+
+    <!-- Button and Content Section -->
+    <div class="content-section">
+        <div class="btn-section">
+            <a href="" class="category" >Learning</a>
+        </div>
+        <small>Published 21 Dec 2023</small>
+        <h2>HTML & CSS Foundations </h2>
+        <p>These languages are the backbone of every websites,defining structure,content,and presentation.</p>
+    </div>
+
+    <!-- Footer Section  -->
+    <div class="footer-section">
+        <img src="C:\Users\USER\Downloads\blog-preview-card-main\blog-preview-card-main\BLOG\image-avatar.webp" alt="Profile Picture">
+        <p><p><strong>Greg Hooper</strong></p></p>
+    </div> 
+
+    </div>
+</body>
+</html>
